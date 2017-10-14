@@ -1,1 +1,6 @@
 Este es el informe del taller
+
+CREACION DE WEBSERVICE SIGUIENDO LINK https://netbeans.org/kb/docs/websvc/jax-ws.html
+
+OBJETIVO:
+  -Crear un Webservice en el IDE NetBeans siguiendo los pasos del link indicado.
