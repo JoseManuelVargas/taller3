@@ -12,4 +12,35 @@ DESARROLLO:
 4-Se da clic derecho en el proyecto y crear nuevo WebService...
 5-Se le da nombre y package según lo indica el link. La imagen del paso a paso sirve mucho.
 *6-Se recommienda hacer un commit ahora y un push
+7-Se debe agregar una operacion al WebService creado. Se da clic derecho en el Webservice dentro de la carpeta WebServices, seguid ode Add operation....
+8-Se da el nombre de add. Se establecen los parametros de entrada y el de retorno. En este caso se reciben dos enteros (i,j) y se retorna un entero. 
+*9-Puedes cambiar el mensaje en el metodo (operacion) hello creado por defecto.
+10-En el metodo (operation) de add agregar la operacion de suma. Esto es:
+		int k = i + j;
+		return k;
+*11-En este punto se recomienda hacer un commit y un push para salvar el avance.
+12- Se debe probar.
+12-Para ello, se da clic derecho en el proyecto y se hace deploy.
+13-Se espera un rato .... Esto tarda unos minutos....
+14-Despues de ello se da clicl derecho en el webservice y test.
+15-En el explorador se ingresan dos valores de prueba y se da clic en add.
+16-Se observa el resultado.
+
+
+OBJETIVOS:
+	-Crear el cliente que consuma el WebserVice creado.
+DESARROLLO:
+1-Se crea un nuevo proyecto de tipo Java application
+2-Se crea un nuevo elemento de web. Y se relacion con el web service.
+3-En el codigo fuente, en el archivo principal se arrastra el servicio add.
+4-Se agrega el codigo señalado en el metodo add.
+5-Se da ejecutar y se observa el resultado.
+
+1-Para probar por aplicativo web.
+2-Se crea un nuevo proyecto de tipo web application.
+3-Dentro de ese proyecto se crea un element ode web service client
+4-Se crea un nuevo Servlet. Se le da nombre y se relacion el package.
+5-Se relacion la URI relativa del nuevo elemento creado, para que el proyecto reconozca el Servlet.
+6-Se hace un paso similar que con la prueba anterior. Se arrastra el servicio add al codigo fuente para que cree el metodo llamado add.
+8-Se agrega un codigo en medio del metodo request(). Este codigo corresponde a la invocacion y consumo del webservice. El codigo que se agrega corresponde a visualizar el resultado dentro de larchivo HTML del web application. Es recomendable hacer un try catch, ya que la conexion puede dar fallas.
 
