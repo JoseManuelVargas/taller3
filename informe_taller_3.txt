@@ -25,7 +25,7 @@ DESARROLLO:
 14-Despues de ello se da clicl derecho en el webservice y test.
 15-En el explorador se ingresan dos valores de prueba y se da clic en add.
 16-Se observa el resultado.
-
+NOTA: Ver la carpeta Imagenes dentro de la carpeta del proyecto del webservice. Contiene los pantallazos tomados.
 
 OBJETIVOS:
 	-Crear el cliente que consuma el WebserVice creado.
